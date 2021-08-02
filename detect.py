@@ -16,8 +16,6 @@ from matplotlib import pyplot as plt
 
 from shutil import rmtree
 import os
-
-import main
     
     
 #muestra img en colores    
@@ -60,12 +58,12 @@ def detectHOS(conf_thres=0.9,  # confidence threshold
         ('rtsp://', 'rtmp://', 'http://', 'https://'))
 
     # Directories
-    #save_dir = increment_path(Path(project) / name, exist_ok=exist_ok)  # increment run
-    print("DIRECTORIO: ",Path(project) / name,"EXIST OK:",os.path.exists(Path(project) / name))
-    if os.path.exists(Path(project) / name):
-        rmtree(Path(project) / name)
+    save_dir = increment_path(Path(project) / name, exist_ok=exist_ok)  # increment run
+    #print("DIRECTORIO: ",Path(project) / name,"EXIST OK:",os.path.exists(Path(project) / name))
+    #if os.path.exists(Path(project) / name):
+    #    rmtree(Path(project) / name)
     
-    save_dir = Path(project) / name  # increment run
+    #save_dir = Path(project) / name  # increment run
     (save_dir / 'labels' if save_txt else save_dir).mkdir(parents=True, exist_ok=True)  # make dir
 
     # Initialize
