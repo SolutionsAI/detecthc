@@ -1,7 +1,7 @@
 <head>
 <div align="center">
 <p>
-<img width="550" src="logo.jpg"></a>
+<img width="850" src="logo.jpg"></a>
 </p>
 <br>  
   
@@ -23,7 +23,7 @@ Al concluir la detección se mostrarán los Resultados en un gráfico de barras,
 Adicionalmente también se podrá Descargar  un archivo zip con todas las imágenes etiquetadas por la red, dando clic en el botón correspondiente y seleccionando luego el destino en el que desea guardarlo.</p>
   
 <p>
-<img width="850" src="instrucciones.png"></a>
+<img width="550" src="instrucciones.png"></a>
 </p>
   
 </div>
