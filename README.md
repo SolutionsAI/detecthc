@@ -1,7 +1,7 @@
 <head>
 <div align="center">
 <p>
-<img width="850" src="logo.jpg"></a>
+<img width="550" src="logo.jpg"></a>
 </p>
 <br>  
   
