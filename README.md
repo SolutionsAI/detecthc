@@ -33,7 +33,7 @@ Adicionalmente también se podrá Descargar  un archivo zip con todas las imáge
 <p> Inicialmente se tiene una imagen de entrada que es analizada y procesada por la primera red, denominada red HOS. Esta realiza la segmentación de los espermatozoides junto con la clasificación de HOS, y brinda como salida una imagen etiquetada. A partir de esta, se recortan sub-imágenes con cada uno de los espermatozoides, como se aprecia en el recuadro verde. De estos recortes se descartan las que queden etiquetadas como NC, y las restantes son alimentadas a la segunda red, denominada red Coomassie, la cual clasifica cada espermatozoide como Coomassie positivo o negativo, centrando esta vez la atención en la coloración de la cabeza. Similar a la primera red, se tienen como salida las sub-imágenes clasificadas y etiquetadas, como se aprecia en el recuadro azul. Seguidamente, se toman las etiquetas generadas por ambas arquitecturas y se construye la etiqueta final que consta de los resultados de ambas clasificaciones, correspondientes a las etiquetas originales.</p>
   
 <p>
-<img width="850" src="esquema.png"></a>
+<img width="550" src="esquema.png"></a>
 </p>
   
 </div>
