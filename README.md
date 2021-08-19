@@ -8,7 +8,7 @@
 </head>
 <body>
 
-</div>
+
 
 <div class="d">
 <h2>Proceso de segmentación, clasificación y obtención de etiquetas:</h2>
@@ -37,6 +37,6 @@ Adicionalmente también se podrá Descargar  un archivo zip con todas las imáge
 <p>
 <img width="750" src="instrucciones.png"></a>
 </p>
-
+</div>
 </body>
 
