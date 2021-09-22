@@ -43,7 +43,8 @@ if not os.path.exists("/app/detecthc/imagenes"):
 st.sidebar.title('Opciones de Configuración')
 st.sidebar.write("Umbral de confianza para detección:")
 #H = st.sidebar.slider('Confianza HOS',1)  
-C = st.sidebar.slider('Confianza',1) 
+C = st.sidebar.slider('Confianza',1)
+C2 = st.sidebar.slider('IoU',1)
 #st.sidebar.write(e)
 #----------------------------------------------
 
