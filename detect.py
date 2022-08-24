@@ -17,7 +17,7 @@ from matplotlib import pyplot as plt
 from shutil import rmtree
 import os
 
-from main import *
+import main
     
     
 #muestra img en colores    
