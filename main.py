@@ -116,7 +116,7 @@ x = [1,2,3,4,5,6,7,8,9,10,11]
 
 chart_data = pd.DataFrame({
      'index': ['H+C+', 'H+C-', 'H-C+', 'H-C-', 'NC'],
-     'clases': [2,1,3,3,15]
+     'clases': [4,1,0,2,15]
 }).set_index('index')
 
 st.bar_chart(chart_data)   
